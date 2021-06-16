@@ -30,7 +30,10 @@ const Ficha = (props) => {
       <h2>{personaje.name}</h2>
       <div>{personaje.category}</div>
       <img src={personaje.img} alt="" />
-      <div>Interpretado por <span>{personaje.portrayed}</span></div>
+      <div>
+        <h1>Interpretado por:</h1>
+        <span>{personaje.portrayed}</span>
+      </div>
     </div>
   );
 };
